@@ -1,4 +1,4 @@
-const { isValidEmail } = require('./emailValidator');
+const { isValidEmail } = require('./emailValidator.js');
 
 describe('isValidEmail', () => {
   test('valide une adresse simple', () => {
